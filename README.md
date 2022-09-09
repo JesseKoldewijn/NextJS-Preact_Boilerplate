@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> Test project with NextJS and PreactJS
+> This boilerplate will be used for my personal NextJS projects. Feel free to also use it if you want!
 
 ## Install
 
