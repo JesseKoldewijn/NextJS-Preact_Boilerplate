@@ -2,16 +2,6 @@
 	"name": "next-preact",
 	"version": "0.0.1",
 	"description": "Test project with NextJS and PreactJS",
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"build-stats": "cross-env ANALYZE=true npm run build",
-		"prod": "next build && next start",
-		"lint": "next lint",
-		"check-types": "tsc --noEmit --pretty",
-		"clean": "rimraf .next out"
-	},
 	"repository": {
 		"type": "git",
 		"url": "none"
@@ -22,6 +12,16 @@
 	],
 	"author": "Jesse Koldewijn",
 	"license": "UNLICENCED",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"build-stats": "cross-env ANALYZE=true npm run build",
+		"prod": "next build && next start",
+		"lint": "next lint",
+		"check-types": "tsc --noEmit --pretty",
+		"clean": "rimraf .next out"
+	},
 	"dependencies": {
 		"next": "^12.3.0",
 		"next-plugin-preact": "^3.0.7",
