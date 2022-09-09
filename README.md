@@ -20,6 +20,15 @@ yarn install
 yarn run dev
 ```
 
+## Docker
+
+> Incase you run into any trouble with these commands you can also use the Docker Desktop application or VScode extention to run these actions. For debugging you can both use the docker exec command or the Docker Desktop Application.
+
+```sh
+docker build -t <Username>/<ProjectName>:<VersionNumber> .
+docker run -p 3000:3000 <ContainerID>
+```
+
 ## Author
 
 👤 **Jesse Koldewijn**

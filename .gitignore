@@ -1,2 +1,9 @@
+# NextJS
 .next
+# Node
 node_modules
+yarn.lock
+package-lock.json
+# General
+.vs
+.vscode
